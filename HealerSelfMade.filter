@@ -1,0 +1,329 @@
+SetFontSize 28
+############################# Currency #######################################
+
+Hide
+    Class "Currency"
+    BaseType "Alchemy Shard" "Binding Shard" "Engineer's Shard" "Transmutation Shard"
+
+Show
+    Class "Currency"
+    BaseType "Chaos Orb" "Regal Orb" "Gemcutter's Prism" "Orb of Scouring" "Exalted Shard" "Ancient Orb" "Orb of Annulment"
+    SetFontSize 40
+    PlayEffect Yellow
+    PlayAlertSound 11
+    MinimapIcon 2 Yellow Circle
+
+Show
+    Class "Currency"
+    BaseType "Exalted Orb" "Divine Orb" "Mirror of Kalandra"
+    SetFontSize 42
+    PlayEffect Pink
+    PlayAlertSound 3
+    MinimapIcon 0 Pink Hexagon
+    SetBorderColor 255 0 0 255
+
+Show
+    Class "Currency"
+    BaseType "Scroll of Wisdom" "Portal Scroll" "Cartographer's Chisel" "Orb of Transmutation" "Blacksmith's Whetstone" "Armourer's Scrap"
+    SetFontSize 26
+    SetBackgroundColor 0 0 0 200
+
+Show
+    BaseType "Silver Coin"
+    SetFontSize 32
+    SetTextColor 181 71 254 255
+   
+
+Show
+    Class "Currency"
+    SetFontSize 37
+
+Hide
+    BaseType "Thunderous Skies" "The Incantation" "The Flora's Gift" "The King's Blade" "The Inoculated" "The Carrion Crow" "Struck by Lightning" 
+
+
+Show
+    Class "Divination Card"
+
+Show
+    Class "Delve Socketable Currency"
+
+Show
+    Class "Incubator"
+    SetFontSize 34
+
+Show
+    Class "Metamorph Sample"
+    SetFontSize 34
+
+##################################### Quest Items & Maps #################################################
+Show
+    Class "Quest Items"
+    SetFontSize 45
+
+Show
+    Class "Misc Map Items"
+    SetFontSize 45
+
+Show
+    Class "Incursion Item"
+    SetFontSize 45
+
+Show
+    Class "Atlas Region Upgrade Item"
+    SetFontSize 45
+
+Show
+    Class "Maps"
+    MapTier > 10
+    SetFontSize 34
+    MinimapIcon 2 Red Square
+    PlayAlertSound 16
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+
+   
+
+Show
+    Class "Maps"
+    MapTier > 5
+    SetFontSize 32
+    MinimapIcon 2 Yellow Square
+    SetTextColor 255 255 0 255
+    SetBorderColor 255 255 0 255
+
+    
+Show
+    Class "Maps"
+    MapTier > 0
+    SetFontSize 30
+    MinimapIcon 2 White Square
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+
+
+
+Show
+    Class "Maps"
+
+Show
+    Class "Map Fragments"
+
+Show
+    Class "Labyrinth item" "Labyrinth Trinket"
+    SetFontSize 32
+    SetTextColor 0 255 0 255
+
+
+##################################### Flasks ###################################################
+
+Show
+    BaseType "Divine Life Flask"
+    SetFontSize 28
+    SetBorderColor 255 255 255 255 
+
+Show
+    Class "Flask"
+    Quality > 0
+    SetFontSize 24
+    SetBorderColor 255 255 255 255
+
+Hide
+    Class "Flask"
+    BaseType "Small Life Flask" "Medium Life Flask" "Large Life Flask" "Greater Life Flask" "Grand Life Flask" "Giant Life Flask" "Colossal Life Flask" "Sacred Life Flask" "Sanctified Life Flask" "Hallowed Life Flask" "Eternal Life Flask" "Small Mana Flask" "Medium Mana Flask" "Large Mana Flask" "Greater Mana Flask" "Grand Mana Flask" "Giant Mana Flask" "Colossal Mana Flask" "Sacred Mana Flask" "Hallowed Mana Flask" "Sanctified Mana Flask" "Divine Mana Flask" "Eternal Mana Flask" "Small Hybrid Flask" "Medium Hybrid Flask" "Large Hybrid Flask" "Colossal Hybrid Flask" "Sacred Hybrid Flask" "Hallowed Hybrid Flask"
+
+
+
+Show
+    Class "Flask"
+    SetFontSize 22
+
+
+
+################################################# RGB-6socket-6link ##########################################################
+
+Show
+    LinkedSockets 6
+    SetFontSize 35
+    PlayEffect Pink
+    PlayAlertSound 4 300
+    MinimapIcon 0 Pink Hexagon
+    SetBorderColor 0 255 255 255
+
+Show
+    Sockets 6
+    SetFontSize 32
+    SetBorderColor 0 200 0 255
+
+Show
+    SocketGroup RGB
+    SetBorderColor 0 255 0 255
+
+##################################################### Unique ############################################################
+
+Show
+    Rarity "Unique"
+    MinimapIcon 2 Brown Star
+
+##################################################### Gems ###############################################################
+
+Show
+    Class "Gem"
+    GemQualityType "Divergent" "Anomalous" "Phantasmal"
+    SetFontSize 45
+
+Show
+    Class "Gem"
+    Quality > 0
+    SetFontSize 30
+    SetBorderColor 255 255 255 255
+
+
+Show
+    Class "Gem"
+    GemLevel > 16
+
+Show
+    Class "Gem"
+    BaseType "Enlighten" "Empower" "Enhance"
+    SetFontSize 32
+    MinimapIcon 2 White Raindrop
+    SetBorderColor 0 255 255 255
+
+
+############################################## Heist Targets & blueprints #############################################################
+
+Show
+    Class "Contract" "Heist Brooch" "Trinkets"
+    SetFontSize 32
+    MinimapIcon 2 Cyan Diamond
+    SetBorderColor 255 255 255 255
+
+
+Show
+    Class "Blueprint"
+    SetFontSize 36
+    PlayAlertSound 14
+    MinimapIcon 2 Blue Hexagon
+
+
+Show
+    Class "Heist Target"
+    SetFontSize 30
+    PlayAlertSound 4
+    SetBorderColor 255 255 255 255
+
+################################################# Jewels & Jewels #########################################################################
+
+Show
+    Class "Jewel"
+
+Show
+    Class "Abyss Jewel"
+
+################################################# Rares & Bases ################################################################################
+
+Show
+    Class "Amulets" "Rings" "Belts"
+    Rarity Rare
+
+Show
+    Rarity "Rare" "Magic" "Normal"
+    BaseType "Spiked Gloves" "Debilitation Gauntlets" "Titan Gauntlets" "Slink Gloves" "Sinistral Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Penitent Mask" "Nightmare Bascinet" "Archdemon Crown" "Blizzard Crown" "Brimstone Treads" "Titan Greaves" "Stormrider Boots" "Slink Boots" "Dreamquest Slippers" "Dragonscale Boots" "Two-Toned Boots" "Cogwork Ring" "Geodesic Ring" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring" "Nexus Gloves" "Dragonscale Gauntlets" "Crystal Belt" "Astrolabe Amulet" "Simplex Amulet" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Mechalarm Belt" "Micro-Distillery Belt" "Stygian Vise"
+    SetFontSize 36
+    ItemLevel > 83
+    SetBorderColor 0 255 255 255
+   
+
+Show
+    Class "Rings"
+    BaseType "Cogwork Ring" "Geodesic Ring" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring"
+    SetFontSize 32
+    SetBorderColor 255 0 0 255
+
+Show
+    Class "Amulets"
+    BaseType "Astrolabe Amulet" "Simplex Amulet" "Blue Pearl Amulet" "Marble Amulet"
+    ItemLevel > 71
+    SetBorderColor 255 0 0 255
+
+Show
+    Class "Belts"
+    BaseType "Crystal Belt" "Vanguard Belt" "Mechalarm Belt" "Micro-Distillery Belt" "Stygian Vise"
+    ItemLevel > 71
+    SetBorderColor 255 0 0 255
+
+Show
+    Class "Gloves"
+    BaseType "Spiked Gloves" "Debilitation Gauntlets" "Titan Gauntlets" "Slink Gloves" "Sinistral Gloves" "Gripped Gloves" "Nexus Gloves" "Dragonscale Gauntlets"
+    Rarity "Rare" "Normal"
+    ItemLevel > 71
+    SetBorderColor 255 255 255 255
+
+Show
+    Class "Boots"
+    BaseType "Titan Greaves" "Slink Boots" "Dragonscale Boots" "Two-Toned Boots"
+    Rarity "Rare" "Normal"
+    ItemLevel > 71
+    SetBorderColor 255 255 255 255
+
+Show
+    Class "Helmets"
+    BaseType "Royal Burgonet" "Lion Pelt" "Penitent Mask" "Nightmare Bascinet" "Archdemon Crown"
+    ItemLevel > 71
+    Rarity "Rare" "Normal"
+    SetBorderColor 255 255 255 255
+
+####################################################### Influences & others ##################################################################
+
+Show
+    AnyEnchantment True
+    SetFontSize 30
+    MinimapIcon 2 White Triangle
+    SetBorderColor 255 0 0 255
+
+Show
+    HasInfluence "Shaper" "Elder" "Crusader" "Hunter" "Redeemer" "Warlord"
+    SetFontSize 30
+    MinimapIcon 2 White Triangle
+    SetBorderColor 255 0 0 255
+
+Show
+    Replica True
+    SetFontSize 30
+    MinimapIcon 2 White Triangle
+    SetBorderColor 255 0 0 255
+
+Show
+    AlternateQuality True
+    SetFontSize 30
+    MinimapIcon 2 White Triangle
+    SetBorderColor 255 0 0 255
+
+Show
+    FracturedItem True
+    SetFontSize 30
+    MinimapIcon 2 White Triangle
+    SetBorderColor 255 0 0 255
+
+Show
+    SynthesisedItem True
+    SetFontSize 30
+    MinimapIcon 2 White Triangle
+    SetBorderColor 255 0 0 255
+
+Show
+    HasExplicitMod "Veil"
+    SetFontSize 30
+    MinimapIcon 2 White Triangle
+    SetBorderColor 255 0 0 255
+
+Show
+    Identified True
+    Rarity Rare
+    SetFontSize 24
+
+
+
+Hide
+    SetFontSize 16
