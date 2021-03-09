@@ -1,4 +1,11 @@
 SetFontSize 28
+
+##################################################### Unique ############################################################
+
+Show
+    Rarity "Unique"
+    MinimapIcon 2 Brown Star
+
 ############################# Currency #######################################
 
 Hide
@@ -57,6 +64,7 @@ Show
     SetFontSize 34
 
 ##################################### Quest Items & Maps #################################################
+
 Show
     Class "Quest Items"
     SetFontSize 45
@@ -101,8 +109,6 @@ Show
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
 
-
-
 Show
     Class "Maps"
 
@@ -113,7 +119,6 @@ Show
     Class "Labyrinth item" "Labyrinth Trinket"
     SetFontSize 32
     SetTextColor 0 255 0 255
-
 
 ##################################### Flasks ###################################################
 
@@ -132,13 +137,9 @@ Hide
     Class "Flask"
     BaseType "Small Life Flask" "Medium Life Flask" "Large Life Flask" "Greater Life Flask" "Grand Life Flask" "Giant Life Flask" "Colossal Life Flask" "Sacred Life Flask" "Sanctified Life Flask" "Hallowed Life Flask" "Eternal Life Flask" "Small Mana Flask" "Medium Mana Flask" "Large Mana Flask" "Greater Mana Flask" "Grand Mana Flask" "Giant Mana Flask" "Colossal Mana Flask" "Sacred Mana Flask" "Hallowed Mana Flask" "Sanctified Mana Flask" "Divine Mana Flask" "Eternal Mana Flask" "Small Hybrid Flask" "Medium Hybrid Flask" "Large Hybrid Flask" "Colossal Hybrid Flask" "Sacred Hybrid Flask" "Hallowed Hybrid Flask"
 
-
-
 Show
     Class "Flask"
     SetFontSize 22
-
-
 
 ################################################# RGB-6socket-6link ##########################################################
 
@@ -159,12 +160,6 @@ Show
     SocketGroup RGB
     SetBorderColor 0 255 0 255
 
-##################################################### Unique ############################################################
-
-Show
-    Rarity "Unique"
-    MinimapIcon 2 Brown Star
-
 ##################################################### Gems ###############################################################
 
 Show
@@ -178,7 +173,6 @@ Show
     SetFontSize 30
     SetBorderColor 255 255 255 255
 
-
 Show
     Class "Gem"
     GemLevel > 16
@@ -190,7 +184,6 @@ Show
     MinimapIcon 2 White Raindrop
     SetBorderColor 0 255 255 255
 
-
 ############################################## Heist Targets & blueprints #############################################################
 
 Show
@@ -199,13 +192,11 @@ Show
     MinimapIcon 2 Cyan Diamond
     SetBorderColor 255 255 255 255
 
-
 Show
     Class "Blueprint"
     SetFontSize 36
     PlayAlertSound 14
     MinimapIcon 2 Blue Hexagon
-
 
 Show
     Class "Heist Target"
@@ -234,7 +225,6 @@ Show
     ItemLevel > 83
     SetBorderColor 0 255 255 255
    
-
 Show
     Class "Rings"
     BaseType "Cogwork Ring" "Geodesic Ring" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring"
@@ -322,8 +312,6 @@ Show
     Identified True
     Rarity Rare
     SetFontSize 24
-
-
 
 Hide
     SetFontSize 16
