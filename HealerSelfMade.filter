@@ -5,7 +5,7 @@ SetFontSize 28
 Show
     Rarity "Unique"
     MinimapIcon 2 Brown Star
-
+    
 ############################# Currency #######################################
 
 Hide
@@ -64,7 +64,6 @@ Show
     SetFontSize 34
 
 ##################################### Quest Items & Maps #################################################
-
 Show
     Class "Quest Items"
     SetFontSize 45
@@ -108,6 +107,8 @@ Show
     MinimapIcon 2 White Square
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
+
+
 
 Show
     Class "Maps"
@@ -173,6 +174,7 @@ Show
     SetFontSize 30
     SetBorderColor 255 255 255 255
 
+
 Show
     Class "Gem"
     GemLevel > 16
@@ -184,6 +186,7 @@ Show
     MinimapIcon 2 White Raindrop
     SetBorderColor 0 255 255 255
 
+
 ############################################## Heist Targets & blueprints #############################################################
 
 Show
@@ -192,11 +195,13 @@ Show
     MinimapIcon 2 Cyan Diamond
     SetBorderColor 255 255 255 255
 
+
 Show
     Class "Blueprint"
     SetFontSize 36
     PlayAlertSound 14
     MinimapIcon 2 Blue Hexagon
+
 
 Show
     Class "Heist Target"
@@ -220,14 +225,15 @@ Show
 
 Show
     Rarity "Rare" "Magic" "Normal"
-    BaseType "Spiked Gloves" "Debilitation Gauntlets" "Titan Gauntlets" "Slink Gloves" "Sinistral Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Penitent Mask" "Nightmare Bascinet" "Archdemon Crown" "Blizzard Crown" "Brimstone Treads" "Titan Greaves" "Stormrider Boots" "Slink Boots" "Dreamquest Slippers" "Dragonscale Boots" "Two-Toned Boots" "Cogwork Ring" "Geodesic Ring" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring" "Nexus Gloves" "Dragonscale Gauntlets" "Crystal Belt" "Astrolabe Amulet" "Simplex Amulet" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Mechalarm Belt" "Micro-Distillery Belt" "Stygian Vise"
+    BaseType "Spiked Gloves" "Apothecary's Gloves" "Debilitation Gauntlets" "Blessed Boots" "Titan Gauntlets" "Slink Gloves" "Sinistral Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Penitent Mask" "Nightmare Bascinet" "Archdemon Crown" "Blizzard Crown" "Brimstone Treads" "Titan Greaves" "Stormrider Boots" "Slink Boots" "Dreamquest Slippers" "Dragonscale Boots" "Two-Toned Boots" "Cogwork Ring" "Geodesic Ring" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring" "Nexus Gloves" "Dragonscale Gauntlets" "Crystal Belt" "Astrolabe Amulet" "Simplex Amulet" "Blue Pearl Amulet" "Marble Amulet" "Vanguard Belt" "Mechalarm Belt" "Micro-Distillery Belt" "Stygian Vise"
     SetFontSize 36
     ItemLevel > 83
     SetBorderColor 0 255 255 255
    
+
 Show
     Class "Rings"
-    BaseType "Cogwork Ring" "Geodesic Ring" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring"
+    BaseType "Cogwork Ring" "Geodesic Ring" "Opal Ring" "Steel Ring" "Vermillion Ring" "Cerulean Ring" "Iolite Ring"
     SetFontSize 32
     SetBorderColor 255 0 0 255
 
@@ -245,14 +251,14 @@ Show
 
 Show
     Class "Gloves"
-    BaseType "Spiked Gloves" "Debilitation Gauntlets" "Titan Gauntlets" "Slink Gloves" "Sinistral Gloves" "Gripped Gloves" "Nexus Gloves" "Dragonscale Gauntlets"
+    BaseType "Spiked Gloves" "Debilitation Gauntlets" "Titan Gauntlets" "Slink Gloves" "Sinistral Gloves" "Gripped Gloves" "Nexus Gloves" "Dragonscale Gauntlets" "Apothecary's Gloves"
     Rarity "Rare" "Normal"
     ItemLevel > 71
     SetBorderColor 255 255 255 255
 
 Show
     Class "Boots"
-    BaseType "Titan Greaves" "Slink Boots" "Dragonscale Boots" "Two-Toned Boots"
+    BaseType "Titan Greaves" "Slink Boots" "Dragonscale Boots" "Two-Toned Boots" "Blessed Boots"
     Rarity "Rare" "Normal"
     ItemLevel > 71
     SetBorderColor 255 255 255 255
@@ -262,6 +268,11 @@ Show
     BaseType "Royal Burgonet" "Lion Pelt" "Penitent Mask" "Nightmare Bascinet" "Archdemon Crown"
     ItemLevel > 71
     Rarity "Rare" "Normal"
+    SetBorderColor 255 255 255 255
+
+Show
+    Class "Body Armour"
+    BaseType "Grasping Mail"
     SetBorderColor 255 255 255 255
 
 ####################################################### Influences & others ##################################################################
@@ -312,6 +323,8 @@ Show
     Identified True
     Rarity Rare
     SetFontSize 24
+
+
 
 Hide
     SetFontSize 16
